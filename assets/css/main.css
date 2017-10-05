@@ -1,0 +1,333 @@
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 1000px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+h1 {
+    /* font-family: 'Martel Sans', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 80px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    color: #000000;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+i.fa {
+    color: #e77d0a;
+}
+
+.toppadding {
+    padding-top: 150px;
+}
+
+.chevron {
+    /* color: #9CCAF0; */
+    color: #e77d0a;
+    text-align: center;
+    font-size: 70px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+}
+
+#static-nav {
+    height: 100px;
+}
+
+#static-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+#static-nav li {
+    float: right;
+}
+
+.pull-left {
+    float: left !important;
+    padding-left: 15px;
+}
+
+#static-nav li a {
+    display: block;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px 15px 25px 15px;
+    text-decoration: none;
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    width: 66%;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+/* unvisited link */
+#static-nav li a:link {
+    color: whitesmoke;
+}
+
+/* visited link */
+#static-nav li a:visited {
+    color: whitesmoke;
+}
+
+/* mouse over link */
+#static-nav li a:hover {
+    color: #e77d0a;
+}
+
+/* selected link */
+#static-nav li a:active {
+    color: #e77d0a;
+    border-bottom: 2px solid #e77d0a;
+}
+
+.hero-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.navbar {
+    visibility: hidden;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    z-index: 10;
+    -webkit-transition: .3s all 0s ease;
+    -moz-transition: .3s all 0s ease;
+    transition: .3s all 0s ease;
+}
+
+.nav-solid {
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 7px #000000;
+}
+
+.maincontainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.container {
+    min-height: 500px;
+    position: relative;
+}
+
+.me-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;   
+    justify-content: space-around;
+    padding-bottom: 105px;
+}
+
+.nav-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;   
+    justify-content: space-around;
+}
+
+.container-halves {
+    width: 50%
+}
+
+.container-thirds {  
+    width: 30%;
+    min-width: 200px;
+    padding: 0 10px;
+}
+
+.content {
+    width: 90%;
+    margin: auto;
+}
+
+.project {
+    display: flex;
+    min-height: 300px;
+    padding-bottom: 30px;
+}
+
+.project-left {
+    width: 33%;
+}
+
+.project-title {
+    height: 15%;
+}
+
+.title-text {
+    font-size: 20px;
+    margin: 15px auto;
+    font-weight: 800;
+    
+}
+
+.project-photo {
+    height: 75%;
+    padding: 15px;
+    align-content: center;
+}
+.project-img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+}
+
+.project-right {
+    width: 66%;  
+}
+
+.main-description {
+    padding: 20px;
+}
+
+.tech-description {
+    padding: 20px;
+    width: 75%;
+}
+
+.visit {
+    padding: 20px;
+    width: 20%;
+}
+
+.btn-visit {
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #e77d0a;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: auto;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #000000;
+    transition: all .3s ease-in-out;    
+}
+
+.btn-visit:hover{
+    background-color: #e77d0a;
+    padding: 0 2rem;
+    border: 2px solid #000;
+}
+
+.tech-pill {
+    border-radius: 15px;
+    margin: 5px 2px;
+    padding: 4px 8px;
+    font-size: 0.8em;
+    display: inline-block;
+    color: whitesmoke;    
+}
+
+/* ================== Tech brand colours ========================== */
+.tech-html {
+    background-color: #e75710;
+}
+
+.tech-css {
+    background-color: #165cd8;
+}
+
+.tech-js {
+    background-color: #f39c11;
+}
+
+.tech-jquery {
+    background-color: #7acef4;
+}
+
+.tech-node {
+    background-color: #215732;
+}
+
+.tech-mongo {
+    background-color: #589636;
+}
+
+.tech-mysql {
+    background-color: #00758f;
+}
+
+.tech-php {
+    background-color: #8892be;
+}
+/* ================== END Tech brand colours ========================== */
+
+
+#hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(38, 51, 54, 0.9)), url('../img/altsplash.jpeg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+#me {
+    background-color: #E2E2E2;
+}
+
+#projects {
+    background-color: #DCDFE4;
+}
+
+#contact {
+    background-color: #e77d0a
+}
